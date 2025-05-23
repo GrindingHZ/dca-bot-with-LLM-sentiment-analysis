@@ -12,7 +12,7 @@ This bot implements a hybrid **indexing + sentiment-based DCA strategy**:
 
 - **Week 1**: Allocate **50% of the portfolio** based on **market capitalization weights** (similar to SPY or QQQ).
 - **Subsequent Weeks**:
-  - **Buy** stocks with **positive sentiment ≥ 0.5** using ~5% of the portfolio (or available cash).
+  - **Buy** stocks with **positive sentiment ≥ 0.25** using ~2.5% of the portfolio (or available cash).
   - **Sell** stocks with **negative sentiment ≤ -0.8** by liquidating their full position.
   - **Hold** if no significant sentiment signals are present.
 
