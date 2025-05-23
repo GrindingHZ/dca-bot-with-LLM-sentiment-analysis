@@ -1,5 +1,9 @@
 # dca-bot-with-LLM-sentiment-analysis
 
+
+![newplot](https://github.com/user-attachments/assets/3fb6ec51-cd30-4268-9571-c924c65b4545)
+The most noticable part of the LLM behavior is that it is able to have a peak performance at the end 2024 and start of 2025. This is not meant to be deployed yet, but to showcase that LLM is able to be used to automate decision-making, in which we limitted our choices to robust and well-tested companies that outperformed the regular market, which is the Magnificent 7.
+
 # Mag7SentimentBot 📈🧠
 
 A weekly **Dollar-Cost Averaging (DCA)** trading bot powered by **LLM-based sentiment analysis** to trade the **Magnificent 7 stocks** (AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA). This strategy uses news sentiment to decide which stocks to buy or sell and runs on the **Lumibot** trading framework with **Ollama** as a local language model interface.
